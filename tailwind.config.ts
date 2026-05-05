@@ -19,6 +19,20 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        cream: {
+          DEFAULT: "hsl(var(--cream))",
+          deep: "hsl(var(--cream-deep))",
+        },
+        ink: {
+          DEFAULT: "hsl(var(--ink))",
+          soft: "hsl(var(--ink-soft))",
+        },
+        sky: {
+          DEFAULT: "hsl(var(--sky))",
+          soft: "hsl(var(--sky-soft))",
+          deep: "hsl(var(--sky-deep))",
+        },
+        ribbon: "hsl(var(--ribbon))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -57,6 +71,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        display: ["Fraunces", "ui-serif", "Georgia", "serif"],
+        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
